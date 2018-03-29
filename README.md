@@ -12,4 +12,4 @@ Run `python lex_list.py n k` from the command line, where n and k are the values
 ## Johnson Trotter Unrank
 This program will print out the permutation that is ranked `m` in the Johnson-Trotter
 ordering. Run. `python johnson_trotter_unrank.py m n` from the command line, where `m` is
-the rank, and `n` stands of `[n]`. 
+the rank, and `n` stands for `[n]`. 
