@@ -1,3 +1,5 @@
+import sys
+
 def unrank(M, n):
     pi = [0] * (n + 1)
 
@@ -26,4 +28,7 @@ def unrank(M, n):
 
     return pi[1:]
 
-print(unrank(999999, 12))
+m = int(sys.argv[1])
+n = int(sys.argv[2])
+
+print(unrank(m, n))

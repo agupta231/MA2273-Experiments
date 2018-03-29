@@ -1,3 +1,5 @@
+import sys
+
 def list_lex(N, K):
     def list_lex_helper(n, k, min_val):
         if k == 1:
@@ -14,4 +16,7 @@ def list_lex(N, K):
     for i in list_lex_helper(N, K, 0):
         print(i)
 
-list_lex(5, 3)
+N = int(sys.argv[1])
+K = int(sys.argv[2])
+
+list_lex(N, K)
